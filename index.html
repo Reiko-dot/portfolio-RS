@@ -26,9 +26,10 @@
         <div class="nav-pill">
             <a href="#home" class="nav-link active">Home</a>
             <a href="#about" class="nav-link">About</a>
-            <a href="#who" class="nav-link">Who</a>
+            <a href="#who" class="nav-link">What I do</a>
             <a href="#skills" class="nav-link">Skills</a>
             <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
         </div>
     </nav>
 
@@ -64,7 +65,8 @@
         <div class="about-inner">
             <div class="about-image reveal-left">
                 <div class="img-placeholder">
-
+                    <!-- TODO: replace this with a real photo of yourself, e.g. images/profile.jpg -->
+                    <img src="images/profile.jpg" alt="Rachael Schaap" class="about-photo" />
                 </div>
             </div>
             <div class="about-text reveal-right">
@@ -79,7 +81,19 @@
                     coding challenges more efficiently.</p><br>
 
                 <p>I'm always eager to learn new technologies, improve my skills, and build projects that are both
-                    functional and memorable.</p>
+                    functional and memorable.</p><br>
+
+                <!-- TODO: rewrite this in your own words — the checklist asks specifically what you still want to learn next -->
+                <p>Looking ahead, I want to deepen my WordPress and backend skills, and explore more of UI/UX design
+                    systems and accessibility best practices.</p>
+
+                <div class="about-links">
+                    <!-- TODO: replace with a link to your CV, hosted as a PDF (e.g. a public Google Drive link) -->
+                    <a href="your-cv-link-here.pdf" class="btn-link" target="_blank" rel="noopener">Download CV ↗</a>
+                    <!-- TODO: replace with your real LinkedIn profile URL -->
+                    <a href="https://www.linkedin.com/in/your-profile" class="btn-link" target="_blank" rel="noopener">LinkedIn ↗</a>
+                    <a href="https://github.com/Reiko-dot" class="btn-link" target="_blank" rel="noopener">GitHub ↗</a>
+                </div>
             </div>
         </div>
     </section>
@@ -112,7 +126,7 @@
                         <img src="https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?auto=format&fit=crop&w=600&q=80"
                             alt="Visual Identity">
                     </div>
-                    <h3> AI Workflow</h3>
+                    <h3>AI Workflow</h3>
                     <p>I use AI-assisted tools to streamline development, solve coding challenges, accelerate workflows,
                         and enhance creativity throughout the design and development process.
                     </p>
@@ -128,53 +142,64 @@
             <div class="skills-grid">
                 <div class="skill-card reveal-up delay-1">
                     <div class="skill-icon">
-                        <img src="html-iconi.svg"
+                        <img src="svg-icons/html-iconi.svg"
                             alt="HTML5 logo" class="skill-logo">
                     </div>
                     <span>HTML</span>
                 </div>
                 <div class="skill-card reveal-up delay-2">
                     <div class="skill-icon">
-                        <img src="js-icon.svg"
+                        <img src="svg-icons/js-icon.svg"
                             alt="JavaScript logo" class="skill-logo">
                     </div>
                     <span>JavaScript</span>
                 </div>
                 <div class="skill-card reveal-up delay-3">
                     <div class="skill-icon">
-                        <img src="design-icon.svg"
+                        <img src="svg-icons/design-icon.svg"
                             alt="UI Design logo" class="skill-logo">
                     </div>
                     <span>UI Design</span>
                 </div>
                 <div class="skill-card reveal-up delay-4">
                     <div class="skill-icon">
-                        <img src="figma-icon.svg"
+                        <img src="svg-icons/figma-icon.svg"
                             alt="Figma logo" class="skill-logo">
                     </div>
                     <span>Figma</span>
                 </div>
                 <div class="skill-card reveal-up delay-5">
                     <div class="skill-icon">
-                        <img src="python-icon.svg"
+                        <img src="svg-icons/python-icon.svg"
                             alt="Python logo" class="skill-logo">
                     </div>
                     <span>Python</span>
                 </div>
                 <div class="skill-card reveal-up delay-5">
                     <div class="skill-icon">
-                        <img src="css-icon.svg"
+                        <img src="svg-icons/css-icon.svg"
                             alt="CSS logo" class="skill-logo">
                     </div>
                     <span>CSS</span>
                 </div>
                 <div class="skill-card reveal-up delay-5">
                     <div class="skill-icon">
-                        <img src="wordpress-icon.svg"
+                        <img src="svg-icons/wordpress-icon.svg"
                             alt="WordPress logo" class="skill-logo">
                     </div>
                     <span>WordPress</span>
                 </div>
+            </div>
+
+            <!-- TODO: edit this list to reflect your actual soft skills -->
+            <div class="soft-skills reveal-up">
+                <h3 class="soft-skills-heading">Soft skills</h3>
+                <ul class="soft-skills-list">
+                    <li>Communication</li>
+                    <li>Problem-solving</li>
+                    <li>Team collaboration</li>
+                    <li>Time management</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -184,38 +209,112 @@
             <h2 class="section-heading centered reveal-up">Projects</h2>
             <div class="heading-line centered reveal-up"></div>
             <div class="projects-grid">
-                <a href="https://github.com/Reiko-dot/Module-7.2-Raych.git" class="project-card reveal-up delay-1">
+                <div class="project-card reveal-up delay-1">
                     <div class="project-image">
-                        <img src="controller.png"
+                        <img src="images/controller.png"
                             alt="Remote-controller">
-                        <div class="project-overlay"><span>View project in GitHub — ↗</span></div>
-                    </div>
-                    <p class="project-name">Remote-controller project</p>
-                </a>
-                <a href="https://github.com/Reiko-dot/Team_Harmony" class="project-card reveal-up delay-2">
-                    <div class="project-image">
-                        <img src="herbivore.png"
-                            alt="Kiosk Herbivore project">
-                        <div class="project-overlay"><span>View project in GitHub — ↗</span></div>
-                    </div>
-                    <p class="project-name">Kiosk Herbivore project</p>
-                </a>
-                <a href="#" class="project-card reveal-up delay-3">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=800&q=80"
-                            alt="Web project 564">
                         <div class="project-overlay"><span>View project — ↗</span></div>
                     </div>
-                    <p class="project-name">Web project 564</p>
-                </a>
-                <a href="#" class="project-card reveal-up delay-4">
+                    <!-- TODO: a "Featured" tag like this can mark the projects you're proudest of -->
+                    <span class="project-tag">Featured</span>
+                    <p class="project-name">Remote-controller project</p>
+                    <!-- TODO: change to "Team project" if it wasn't solo -->
+                    <p class="project-meta">Solo project</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Reiko-dot/Module-7.2-Raych.git" class="project-btn" target="_blank" rel="noopener">GitHub ↗</a>
+                        <!-- TODO: add a live demo link here, or remove this button if there isn't one -->
+                        <a href="#" class="project-btn project-btn-live" target="_blank" rel="noopener">Live site ↗</a>
+                    </div>
+                </div>
+                <div class="project-card reveal-up delay-2">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1541462608141-ad4979e408c9?auto=format&fit=crop&w=800&q=80"
+                        <img src="images/herbivore.png"
+                            alt="Kiosk Herbivore project">
+                        <div class="project-overlay"><span>View project — ↗</span></div>
+                    </div>
+                    <p class="project-name">Kiosk Herbivore project</p>
+                    <!-- TODO: confirm this is accurate -->
+                    <p class="project-meta">Team project</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Reiko-dot/Team_Harmony" class="project-btn" target="_blank" rel="noopener">GitHub ↗</a>
+                        <a href="https://u240761.gluwebsite.nl/public/" class="project-btn project-btn-live" target="_blank" rel="noopener">Live site ↗</a>
+                    </div>
+                </div>
+                <div class="project-card reveal-up delay-3">
+                    <div class="project-image">
+                        <img src="images/filosofisch-web.png"
+                            alt="Filosofisch Reisburo project">
+                        <div class="project-overlay"><span>View project — ↗</span></div>
+                    </div>
+                    <!-- TODO: rename this to your actual project title -->
+                    <p class="project-name">Filosofisch Reisburo — WordPress site</p>
+                    <!-- TODO: change to "Team project" if it wasn't solo -->
+                    <p class="project-meta">Solo project</p>
+                    <div class="project-links">
+                        <!-- TODO: add your GitHub repo link here, or remove this button -->
+                        <a href="#" class="project-btn" target="_blank" rel="noopener">GitHub ↗</a>
+                        <!-- TODO: add the live site link once it's launched -->
+                        <a href="#" class="project-btn project-btn-live" target="_blank" rel="noopener">Live site ↗</a>
+                    </div>
+                </div>
+                <div class="project-card reveal-up delay-4">
+                    <div class="project-image">
+                        <img src="/images/web-project-565.png"
                             alt="Web project 565">
                         <div class="project-overlay"><span>View project — ↗</span></div>
                     </div>
-                    <p class="project-name">Web project 565</p>
-                </a>
+                    <!-- TODO: replace with your actual project title -->
+                    <p class="project-name">[Add project name]</p>
+                    <!-- TODO: change to "Team project" if it wasn't solo -->
+                    <p class="project-meta">Solo project</p>
+                    <div class="project-links">
+                        <!-- TODO: add your GitHub repo link here, or remove this button -->
+                        <a href="#" class="project-btn" target="_blank" rel="noopener">GitHub ↗</a>
+                        <!-- TODO: add the live site link, or remove this button -->
+                        <a href="#" class="project-btn project-btn-live" target="_blank" rel="noopener">Live site ↗</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="contact-inner">
+            <h2 class="section-heading centered reveal-up">Contact</h2>
+            <div class="heading-line centered reveal-up"></div>
+            <p class="contact-intro reveal-up">Got a project in mind or want to get in touch? Reach out below.</p>
+
+            <div class="contact-grid reveal-up">
+                <!-- TODO: a plain mailto form like this opens the visitor's own email app. For a form that
+                     sends silently from your page, sign up for a free account at formspree.io or emailjs.com
+                     and swap the action URL for the one they give you. -->
+                <form class="contact-form" action="mailto:leah_agung@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="btn magnetic">Send message</button>
+                </form>
+
+                <div class="contact-side">
+                    <p class="contact-email">Rachaelsheepo@gmail.com</p>
+                    <!-- TODO: replace with your real LinkedIn profile URL -->
+                    <a href="https://www.linkedin.com/in/your-profile" class="project-btn" target="_blank" rel="noopener">LinkedIn ↗</a>
+                    <a href="https://github.com/Reiko-dot" class="project-btn" target="_blank" rel="noopener">GitHub ↗</a>
+
+                    <div class="contact-map">
+                        <!-- TODO: change "Utrecht,Netherlands" to your own city/region -->
+                        <iframe
+                            src="https://maps.google.com/maps?q=Utrecht,Netherlands&z=10&output=embed"
+                            width="100%" height="220" style="border:0;" loading="lazy"
+                            title="Location map"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -231,7 +330,10 @@
                 <div class="footer-avatar" aria-hidden="true">
 
                 </div>
-                <p class="footer-email">leah_agung@gmail.com</p>
+                <p class="footer-email">Rachaelsheepo@gmail.com</p>
+                <!-- TODO: replace with your real LinkedIn profile URL -->
+                <a href="https://www.linkedin.com/in/your-profile" class="footer-link" target="_blank" rel="noopener">LinkedIn ↗</a>
+                <a href="https://github.com/Reiko-dot" class="footer-link" target="_blank" rel="noopener">GitHub ↗</a>
             </div>
         </div>
     </footer>
